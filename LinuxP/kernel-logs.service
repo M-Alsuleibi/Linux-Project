@@ -1,0 +1,6 @@
+[Unit]
+Description=Kernel Logs Collection Service
+
+[Service]
+Type=oneshot
+ExecStart=/home/mohammad/Desktop/LinuxP/collect_kernel_logs.sh
